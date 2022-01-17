@@ -27,7 +27,7 @@ async def song(client, message: Message):
     thum = mio[0]["title"]
     fridayz = mio[0]["id"]
     name = ["𝗘𝗦𝗟𝗮𝗺"]
-    url1 = ["https://t.me/EuxxE"]
+    url1 = "https://t.me/EuxxE"
     mio[0]["channel"]
     kekme = f"https://img.youtube.com/vi/{fridayz}/hqdefault.jpg"
     await asyncio.sleep(0.6)
@@ -174,7 +174,7 @@ async def vsong(client, message: Message):
     thum = mio[0]["title"]
     fridayz = mio[0]["id"]
     name = ["𝗘𝗦𝗟𝗮𝗺"]
-    url1 = ["https://t.me/EuxxE"]
+    url1 = "https://t.me/EuxxE"
     mio[0]["channel"]
     kekme = f"https://img.youtube.com/vi/{fridayz}/hqdefault.jpg"
     await asyncio.sleep(0.6)

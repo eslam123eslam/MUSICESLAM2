@@ -36,9 +36,9 @@ def ytsearch(query):
         url = data["link"]
         duration = data["duration"]
         name = ["𝗘𝗦𝗟𝗮𝗺"]
-        url1 = ["https://t.me/EuxxE"]
+        url1 = "https://t.me/EuxxE"
         thumbnail = f"https://i.ytimg.com/vi/{data['id']}/hqdefault.jpg"
-        return [songname, url, duration, thumbnail]
+        return [songname, url, duration, name, url1, thumbnail]
     except Exception as e:
         print(e)
         return 0
@@ -57,7 +57,7 @@ def ytsearch(query):
         url = data["link"]
         duration = data["duration"]
         name = ["𝗘𝗦𝗟𝗮𝗺"]
-        url1 = ["https://t.me/EuxxE"]
+        url1 = "https://t.me/EuxxE"
         thumbnail = f"https://i.ytimg.com/vi/{data['id']}/hqdefault.jpg"
         return [songname, url, duration, thumbnail, name, url1]
     except Exception as e:
@@ -130,7 +130,7 @@ async def play(client, m: Message):
                 duration = search[2]
                 thumbnail = search[3]
                 name = 𝗘𝗦𝗟𝗮𝗺[4]
-                url1 = https://t.me/EuxxE[5]
+                url1 = "https://t.me/EuxxE"
                 hm, ytlink = await ytdl(url)
                 if hm == 0:
                     await huehue.edit(f"**عذرا هناك خطأ  ⚠️** \n\n`{ytlink}`")
@@ -254,8 +254,8 @@ async def vplay(client, m: Message):
                 url = search[1]
                 duration = search[2]
                 thumbnail = search[3]
-                name = 𝗘𝗦𝗟𝗮𝗺[4]
-                url1 = https://t.me/EuxxE[5]
+                name = 𝗘𝗦𝗟𝗮𝗺
+                url1 = "https://t.me/EuxxE"
                 hm, ytlink = await ytdl(url)
                 if hm == 0:
                     await huehue.edit(f"**عذرا هناك خطأ  ⚠️** \n\n`{ytlink}`")
